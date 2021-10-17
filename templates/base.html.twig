@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Genshin Impact Fr{% endblock %}</title>
+        <link rel="stylesheet" href="https://bootswatch.com/5/superhero/bootstrap.min.css">
+        {# Run `composer require symfony/webpack-encore-bundle`
+           and uncomment the following Encore helpers to start using Symfony UX #}
+        {% block stylesheets %}
+            {#{{ encore_entry_link_tags('app') }}#}
+        {% endblock %}
+
+        {% block javascripts %}
+            {#{{ encore_entry_script_tags('app') }}#}
+        {% endblock %}
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="http://m3104.touzet.com/">Genshin Impact</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://m3104.touzet.com/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://m3104.touzet.com/e/t/play">Play of the week</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://m3104.touzet.com/e/t/funny">Funny stuff</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://m3104.touzet.com/e/t/record">World records</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://m3104.touzet.com/e/t/constact/form/new">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        {% if app.user %}
+            <p>Connecté en tant que {{ app.user.username }}, <a href="{{ path('app_logout') }}">Logout</a></p>
+        {% else %}
+            <p>Déconnecté</p>
+            <p><a href="{{ path('app_login') }}">Se connecter</a></p>
+        {% endif %}
+        <div class="container">
+        {% block body %}{% endblock %}
+        </div>
+    </body>
+</html>

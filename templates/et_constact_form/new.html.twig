@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New ContactForm{% endblock %}
+
+{% block body %}
+    <h1>Contact</h1>
+
+    {{ include('et_constact_form/_form.html.twig') }}
+
+    <a href="{{ path('e_t_constact_form_index') }}">back to list</a>
+{% endblock %}
