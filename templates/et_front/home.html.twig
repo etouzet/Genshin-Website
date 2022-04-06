@@ -1,5 +1,7 @@
 {% extends 'base.html.twig' %}
 
+
+
 {% block body %}
     <h1>{{ titre }} </h1>
 
@@ -15,12 +17,13 @@
             <div>Posté le {{ article.createdAt ? article.createdAt|date('d-m-Y H:i') : '' }}</div>
             <div><img class="fit-picture"
                      src="{{ article.media }}"
-                     alt=""></div>
+                     alt="" height="430" width="760"></div>
             <div>{{ article.content }}</div>
             <td>
+
+                        <a href="{{ path('e_t_article_show', {'id': article.id}) }}">Voir plus</a>
                 {% if app.user %}
                     {% if app.user.getRoles[0] == "ROLE_ADMIN" %}
-                        <a href="{{ path('e_t_article_show', {'id': article.id}) }}">show</a>
                         <a href="{{ path('e_t_article_edit', {'id': article.id}) }}">edit</a>
                     {% endif %}
                 {% endif %}

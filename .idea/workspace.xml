@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c7d64c8-54e5-444d-963a-edbe94bc508f" name="Changes" comment="" />
+    <list default="true" id="2c7d64c8-54e5-444d-963a-edbe94bc508f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/et_article/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/et_article/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/et_article/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/et_article/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/et_article/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/et_article/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/et_article/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/et_article/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/et_front/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/et_front/home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/et_funny/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/et_funny/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/et_play/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/et_play/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/et_record/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/et_record/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/et_record/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/et_record/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/et_record/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/et_record/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/et_video/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/et_video/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/et_video/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/et_video/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/et_video/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/et_video/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/et_video/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/et_video/show.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +26,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -130,6 +149,10 @@
       <workItem from="1634387848088" duration="4476000" />
       <workItem from="1634392579920" duration="1744000" />
       <workItem from="1634400113002" duration="879000" />
+      <workItem from="1634555500440" duration="4689000" />
+      <workItem from="1634660987559" duration="861000" />
+      <workItem from="1649163078795" duration="713000" />
+      <workItem from="1649228628764" duration="1050000" />
     </task>
     <servers />
   </component>

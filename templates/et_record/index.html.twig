@@ -27,8 +27,12 @@
                 <td>{{ record.content }}</td>
                 <td>{{ record.player }}</td>
                 <td>
-                    <a href="{{ path('e_t_record_show', {'id': record.id}) }}">show</a>
-                    <a href="{{ path('e_t_record_edit', {'id': record.id}) }}">edit</a>
+                    {% if app.user %}
+                    {% if app.user.getRoles[0] == "ROLE_ADMIN" %}
+                        <a href="{{ path('e_t_record_show', {'id': record.id}) }}">show</a>
+                        <a href="{{ path('e_t_record_edit', {'id': record.id}) }}">edit</a>
+                    {% endif %}
+                    {% endif %}
                 </td>
             </tr>
         {% else %}
